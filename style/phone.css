@@ -44,7 +44,7 @@
     .nav-links a{
         color: white;
         font-size: 25px;
-        padding: 10px
+        padding: 10px;
     }
     .nav-active{
         transform: translateX(0%);
@@ -53,6 +53,16 @@
         display: block;
         padding: 10px;
         cursor: pointer;
+    }
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
     }
     .intro-text{
         font-size: 25px;   /*vw*/
@@ -68,16 +78,6 @@
         max-width: 400px;
         margin: 20px 0px 0px 0px;
     }
-        @keyframes navLinkFade{
-            from{
-                opacity: 0;
-                transform: translateX(50px);
-            }
-            to{
-                opacity: 1;
-                transform: translateX(0px);
-            }
-        }
     .info{
         width: 90%;
         font-size: 20px;

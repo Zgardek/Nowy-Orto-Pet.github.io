@@ -4,76 +4,13 @@
     margin: 0;
     padding: 0;
 }
-
-.gallery{
+.category{
     background-color: var(--sec-color);
-    width: 100%;
 }
-.slide-presentation{
-    width: 70%;
-    margin: 0 auto;
-    font-size: 35px;
-}
-.slide-presentation h1{
+.offer h2{
+    font-size: 50px;
     text-align: center;
-    padding: 30px;
-}
-.slide-viewer{
-    position: relative;
-    overflow: hidden;
-    height: 500px;
-}
-.slide-group{
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-.slide{
-    width: 100%;
-    height: 100%;
-    display: none;
-    position: absolute;
-}
-.slide:first-child{
-    display: block;
-}
-.slide-buttons{
-    margin: auto;
-    text-align: center;
-}
-.slide-btn{
-    border: none;
-    background: none;
-    color: #000;
-    font-size: 200%;
-    line-height: 0.5em;
-    padding: 0 10px;
-}
-.slide-btn.active, .slide-btn:hover {
-    color: #ed8e6c;
-    cursor: pointer;
-}
-.slide-btn{
-    font-size: 90%;
-    text-align: left;
-    text-transform: uppercase;
-}
-.slide-btn:hover{
-    cursor: pointer;
-}
-
-
-.slide-1{
-    background-color: rgb(114, 86, 112);
-}
-.slide-2{
-    background-color: rgb(113, 165, 124);
-}
-.slide-3{
-    background-color: rgb(52, 21, 109);
-}
-.slide-4{
-    background-color: rgb(116, 86, 86);
+    padding: 20px 0px 20px 0px ;
 }
 .offer{
     width: 70%;
@@ -100,7 +37,7 @@
     overflow: hidden;
     padding: 10px;
     margin: 10px;
-    border: 4px solid #dde1e5;
+    border: 4px solid var(--main-color-font);
     border-radius: 10px;
 }
 .photo-box img{
@@ -115,9 +52,10 @@
     position: absolute;
     bottom: 0;
     z-index: 2;
-    background-color: #dde1e5;
+    background-color: var(--main-color-font);
 }
 .photo-blur h5{
+    color: white;
     font-size: 25px;
     margin: 10px 10px;
     text-align: center;
