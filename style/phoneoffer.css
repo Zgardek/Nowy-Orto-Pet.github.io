@@ -1,0 +1,49 @@
+@media screen and (max-width: 1024px){
+    header{
+        width: 90%;
+        height: 12vh;
+        min-height: 100px;
+    }
+    .logo-container img{
+        height: 10vh;
+        min-height: 80px;
+    }
+    .presentation{
+        height: 105vw;
+        min-height: 530px;
+        max-height: 630px;
+    }
+    .introduction{
+        flex-direction: column;
+        width: 90%;
+    }
+    .logo{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .intro-text{
+        font-size: 150%;   /*vw*/
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 10px 10px;
+        border-left: 4px solid var(--simple-color); /*Opcionalne*/
+    }
+    .cover{
+        align-self: center;
+    }
+    .cover img{
+        width: 60vw;
+        max-width: 400px;
+        margin: 20px 0px 30px 0px;
+    }
+    .photo-blur h5{
+        font-size: 20px;
+    }
+    .photo-box img{
+        max-width: 230px;
+    }
+    .slide-viewer{
+        max-height: 200px;
+    }
+}
