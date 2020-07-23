@@ -54,7 +54,7 @@
     .gallery-info{
         grid-template-rows: auto auto;
         position: fixed;
-        margin-top: 200px;
+        margin-top: 70px;
         max-height: 70vh;
     }
     .img-desc{
