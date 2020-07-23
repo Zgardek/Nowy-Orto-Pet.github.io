@@ -47,7 +47,6 @@
     width: 90vw;
     height: 90vh;
     background-color: white;
-    background-color: var(--main-color-font);
 }
 .close-info{
     padding: 5px 20px;
