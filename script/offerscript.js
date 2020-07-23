@@ -66,7 +66,7 @@ $('.slide-presentation').each(function() {
 });
 //open
 var test = document.querySelectorAll('.photo-box');
-function openDescription(position){
+function openDescryption(position){
   var x = document.querySelector('.photo-phone-'+position);
   x.style.display = "grid";
 }
