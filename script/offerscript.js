@@ -66,19 +66,13 @@ $('.slide-presentation').each(function() {
 });
 //open
 var test = document.querySelectorAll('.photo-box');
-function openDescription(i){
-  test[i].classList.add('photo-active');
-  test[i].classList.remove('photo-box');
-}
-//close
-function closeDescryption(){
-  var x = document.querySelector('.photo-active');
-  x.style.display ="none";
-  console.log(x);
-  x.classList.remove("photo-active");
-  x.classList.add("photo-box");
+function openDescription(position){
+  var x = document.querySelector('.photo-phone-'+position);
   x.style.display = "grid";
-  console.log(x);
+}
+function closeDescryption(position){
+  var x = document.querySelector('.photo-phone-'+position);
+  x.style.display = "none";
 }
 
 

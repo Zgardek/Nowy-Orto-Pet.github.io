@@ -30,11 +30,11 @@
     padding: 30px 0px 10px 0px;
 }
 /* Gallery descryption */
-.photo-active{
+.photo-phone-0{
     border-radius: 20px;
     position: fixed;
     top: 5vh;
-    display: grid;
+    display: none;
     grid-template-columns: 50% 50%;
     border: none;
     z-index: 100;
@@ -42,30 +42,30 @@
     height: 90vh;
     background-color: white;
 }
-.photo-active .close{
+.photo-phone-0 .close{
     position: absolute;
     top: 40px;
     right: 20px;
     cursor: pointer;
 }
-.photo-active .close div{
+.photo-phone-0 .close div{
     width: 40px;
     height: 5px;
     margin: -5px;
     background-color: white;
 }
-.photo-active .first{
+.photo-phone-0 .first{
     transform: rotate(-45deg);
 }
-.photo-active .sec{
+.photo-phone-0 .sec{
     transform: rotate(45deg);
 }
-.photo-active img{
+.photo-phone-0 img{
     grid-column: 1 / 2;
     align-self: center;
     justify-self: center;
 }
-.photo-active .photo-blur{
+.photo-phone-0 .photo-blur{
     grid-column: 2 / 3;
     position: static;
     background-color: var(--main-color-font);
@@ -73,16 +73,16 @@
     height: 100%;
     color: white;
 }
-.photo-active .photo-blur h5{
+.photo-phone-0 .photo-blur h5{
     font-size: 30px;
     letter-spacing: 2px;
     padding: 20px;
     text-align: center;
 }
-.photo-active .photo-blur p{
+.photo-phone-0 .photo-blur p{
     padding: 30px;
 }
-.photo-active .photo-blur a{
+.photo-phone-0 .photo-blur a{
     padding: 10px 30px;
     background-color: rgb(207, 162, 79);
     border-radius: 5px;
@@ -95,7 +95,7 @@
     border: 2px solid rgb(207, 162, 79);
     transition: color .3s, background-color .3s;
 }
-.photo-active .photo-blur a:hover{
+.photo-phone-0 .photo-blur a:hover{
     color: rgb(207, 162, 79);
     border: 2px solid rgb(207, 162, 79);
     background-color: white;
