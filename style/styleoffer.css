@@ -47,6 +47,7 @@
     width: 90vw;
     height: 90vh;
     background-color: white;
+    background-color: var(--main-color-font);
 }
 .close-info{
     padding: 5px 20px;
@@ -99,9 +100,8 @@
     font-weight: 600;
     color: white;
     text-decoration: none;
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
+    margin: 20px;
+    text-align: right;
     border: 2px solid rgb(207, 162, 79);
     transition: color .3s, background-color .3s;
 }
