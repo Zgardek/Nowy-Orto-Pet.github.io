@@ -54,8 +54,8 @@
     .gallery-info{
         grid-template-rows: auto auto;
         position: fixed;
+        margin-top: 20px;
         max-height: 70vh;
-        border-radius: 20px;
     }
     .img-desc{
         display: none;
@@ -64,7 +64,6 @@
         grid-row: 1 / 3;
         grid-column: 1 / 3;
         margin-top: 70px
-        border-radius: 20px;
     }
     .photo-blur-a p{
         padding:0;
