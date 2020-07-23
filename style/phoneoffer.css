@@ -55,7 +55,7 @@
         grid-template-rows: auto auto;
         position: fixed;
         margin-top: 20px;
-        max-height: 70vh;
+        max-height: 90vh;
         background-color: var(--main-color-font);
     }
     .img-desc{
