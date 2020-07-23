@@ -29,13 +29,94 @@
     font-size: 35px;
     padding: 30px 0px 10px 0px;
 }
+/* Gallery descryption */
+.photo-active{
+    border-radius: 20px;
+    position: fixed;
+    top: 5vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: none;
+    z-index: 100;
+    width: 90vw;
+    height: 90vh;
+    background-color: white;
+}
+.photo-active .close{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    cursor: pointer;
+}
+.photo-active .close div{
+    width: 40px;
+    height: 5px;
+    margin: -5px;
+    background-color: white;
+}
+.photo-active .first{
+    transform: rotate(-45deg);
+}
+.photo-active .sec{
+    transform: rotate(45deg);
+}
+.photo-active img{
+    grid-column: 1 / 2;
+    align-self: center;
+    justify-self: center;
+}
+.photo-active .photo-blur{
+    grid-column: 2 / 3;
+    position: static;
+    background-color: var(--main-color-font);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+.photo-active .photo-blur h5{
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding: 20px;
+    text-align: center;
+}
+.photo-active .photo-blur p{
+    padding: 30px;
+}
+.photo-active .photo-blur a{
+    padding: 10px 30px;
+    background-color: rgb(207, 162, 79);
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    border: 2px solid rgb(207, 162, 79);
+    transition: color .3s, background-color .3s;
+}
+.photo-active .photo-blur a:hover{
+    color: rgb(207, 162, 79);
+    border: 2px solid rgb(207, 162, 79);
+    background-color: white;
+}
+/* Gallery */
+.photo-box .close{
+    display: none;
+}
+.photo-box p{
+    display: none;
+}
+.photo-box a{
+    display: none;
+}
+
 .photo-box{
     width: 320px;
     min-height: 280px;
     display: grid;
     position: relative;
     overflow: hidden;
-    padding: 10px;
     margin: 10px;
     border: 4px solid var(--main-color-font);
     border-radius: 10px;
@@ -45,8 +126,10 @@
     max-height: 250px;
     justify-self: center;
     object-fit: contain;
+    padding: 10px;
 }
-.photo-blur{
+.photo-box .photo-blur{
+    grid-row: 1/2;
     width: 100%;
     height: 30%;
     position: absolute;
@@ -54,7 +137,7 @@
     z-index: 2;
     background-color: var(--main-color-font);
 }
-.photo-blur h5{
+.photo-box .photo-blur h5{
     color: white;
     font-size: 25px;
     margin: 10px 10px;

@@ -65,4 +65,32 @@ $('.slide-presentation').each(function() {
 
 });
 
+var test = document.querySelectorAll('.photo-box');
+console.log(test.length);
+/*/close
+function closeInfo(position){
+  test[position].classList.add('photo-box');
+  var object = document.querySelector('.photo-active');
+  object.classList.add("photo-box");
+  object.classList.remove("photo-active");
+}
+//open
+function openInfo(position){
+  var object = document.querySelector('.photo-box');
+  object.classList.add('photo-active');
+  object.classList.remove('photo-box');
+}*/
+
+function openDescription(position){
+  test[position].classList.add('photo-active');
+  test[position].classList.remove('photo-box');
+}
+
+function closeDescryption(){
+  var temp = document.getElementsByClassName('photo-active');
+  console.log(temp);
+  temp[0].classList.add('photo-box');
+  temp[0].classList.remove('photo-active');
+}
+
 
