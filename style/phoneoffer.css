@@ -54,7 +54,6 @@
     .gallery-info{
         grid-template-rows: auto auto;
         position: fixed;
-        margin-top: 50px;
         max-height: 70vh;
         border-radius: 20px;
     }
