@@ -28,7 +28,7 @@
         position: absolute;
         width: 100%;
         right: 0;
-        top: 13vh;
+        top: 22vh;
         height: 50%;
         background-color: var(--main-color-font);
         color: white;
@@ -92,10 +92,10 @@
         max-width: 400px;
         width: 65vw;
     }
-    .professional-care h4, .professional-care p{
+    .professional-care h3, .professional-care p{
         text-align: center;
     }
-    .professional-care h4{
+    .professional-care h3{
         font-size: 25px;
     }
     .how-work{
@@ -117,7 +117,7 @@
     .who-we img{
         min-height: 40px;
     }
-    .cooperating h1{
+    .cooperating h2{
         font-size: 25px;
     }
     .cooperating img{

@@ -147,7 +147,7 @@ nav{
     height: 30vh;
     filter: drop-shadow(0px 5px 3px rgb(70, 70, 70));
 }
-.professional-care h4{
+.professional-care h3{
     font-size: 35px;
 }
 .professional-care p{
@@ -251,7 +251,7 @@ nav{
     padding: 20px 0px;
     margin: 0 auto;
 }
-.contact h4{
+.contact h3{
     padding: 20px;
 }
 .contact img{
@@ -281,7 +281,7 @@ nav{
     height: 400px;
     margin: 20px 0px 20px 0px;
 }
-.location h4{
+.location h3{
     text-align: center;
     padding: 5px;
 }
@@ -321,7 +321,7 @@ nav{
     font-size: 20px;
 }
 .left{
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     align-items: center;
 }
@@ -329,7 +329,9 @@ nav{
 .coop-desc{
     padding: 0px 40px 0px 30px;
 }
-
+.coop-desc h3{
+    font-size: 25px;
+}
 footer{
     display: flex;
     width: 70%;
