@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
 }
+.priority-info{
+    padding: 20px;
+}
+.priority-info h3{
+    padding: 20px;
+}
 .category{
     background-color: var(--sec-color);
 }

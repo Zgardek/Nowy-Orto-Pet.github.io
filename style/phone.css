@@ -28,8 +28,8 @@
         position: absolute;
         width: 100%;
         right: 0;
-        top: 22vh;
-        height: 50%;
+        top: 100px;
+        height: 60%;
         background-color: var(--main-color-font);
         color: white;
         flex-direction: column;
