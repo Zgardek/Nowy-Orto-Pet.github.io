@@ -125,7 +125,7 @@ nav{
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
-.info h2{
+.info h1{
     align-self: center;
     text-align: center;
     margin: auto;
@@ -173,7 +173,7 @@ nav{
     width: 70%;
     margin: auto;
 }
-.how-work h2{
+.how-work h1{
     align-self: center;
     text-align: center;
     margin: auto;
@@ -216,7 +216,7 @@ nav{
     width: 70%;
     margin: auto;
 }
-.who-we h2{
+.who-we h1{
     align-self: center;
     text-align: center;
     margin: auto;
@@ -303,7 +303,7 @@ nav{
     font-size: 35px;
     padding-bottom: 20px;
 }
-.cooperating h2{
+.cooperating h1{
     align-self: center;
     text-align: center;
     margin: auto;
